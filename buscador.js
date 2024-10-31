@@ -1,6 +1,6 @@
 
 
-fetch('https://fakestoreapi.com/products?limit=20')
+fetch('https://fakestoreapi.com/products?limit=10')
     .then(res => res.json())
     .then((json) => {
         console.log(json);
