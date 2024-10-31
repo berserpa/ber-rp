@@ -1,0 +1,25 @@
+style>
+    *{
+        margin: 0;
+        padding: 0;
+        
+    }
+    body{
+        width: 100%;
+        color: rgb(2, 58, 58);
+        text-align: center;
+        min-height: 100vh;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        width: 100%;
+        overflow-y: scroll;
+        height: 100vh;
+        padding: 15px 2%;
+        box-shadow: 0 0 5px;
+        
+    }

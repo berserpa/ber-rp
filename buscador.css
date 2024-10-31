@@ -1,0 +1,124 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  padding:0;
+  margin:0;
+  background-image: linear-gradient(#1c0024, #430979, #356117);
+  background-repeat: repeat;
+  background-size: cover;
+  opacity: 92%;
+  background-attachment: fixed;
+  text-align: center
+  
+}
+.buscar{
+  width: 100%;
+  background: #322842;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+
+
+
+input{
+  width: 90%;
+  height: 24px;
+  padding-left: 15px;
+  font-size:22px;
+  border:1px solid #ddd;
+  margin:20px;
+  border-radius:5px;
+}
+
+#listaProdutos{
+  display: none;   
+  width: 91%;
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  position: absolute;
+  top: 70px;
+}
+
+#listaProdutos li a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size:18px;
+  color: black;
+  border: 1px solid #5403eb;
+  background: #f6f6f6;
+  padding: 12px;
+}
+
+#listaProdutos li a:hover{
+  background: #eee;
+}
+
+.item-name{
+  margin-left:15px;
+}
+
+h1, p{
+  margin-left: 5%;
+}
+
+.botao{
+    background-color: #322842;
+    color: #fff;
+    border: none;
+    padding: 10px 8px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: fixed;
+    top: 11px;
+    right: 10px;
+    float: right
+    
+    
+  ;
+    
+    
+
+}
+
+button:hover{
+    background-color: #4eb852;
+}
+
+#voltar{
+  background-color: #322842;
+  color: #fff;
+  border: none;
+  padding: 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  position:fixed;
+  float: left;
+  bottom:  20px;
+  left: 20px;
+  
+
+  
+
+}
+
+#voltar:hover{
+  background-color: #4eb852;
+}
+
+.imagem-opaca{
+  margin-top: 100px;
+  text-align: center;
+  width: 25%;
+  opacity: 0.2;
+}
+
+
+
+
