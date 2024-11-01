@@ -3,6 +3,7 @@
 <head>
 	<title>Jogo da Velha</title>
 	<link rel="stylesheet" href="jogodavelha.css">
+	<link rel="stylesheet" href="index.html">
 </head>
 <style>
     h1 {
