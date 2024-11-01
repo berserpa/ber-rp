@@ -1,0 +1,59 @@
+
+
+.jogo {
+	width: 300px;
+	margin: 40px auto;
+}
+
+.linha {
+	display: flex;
+	justify-content: space-between;
+}
+
+.quadrado {
+	width: 100px;
+	height: 100px;
+	border: 1px solid rgb(255, 255, 255);
+	font-size: 36px;
+	text-align: center;
+	line-height: 100px;
+}
+
+.quadrado:hover {
+	background-color: #ccc;
+}
+
+#reiniciar{
+    background-color: #322842;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    top: 59,3%;
+    left:47%;
+
+}
+
+#voltar{
+    background-color: #322842;
+    color: #fff;
+    border: none;
+    padding: 10px 8px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 10px;
+    left: 5px;
+}
+
+body {
+    background-image: linear-gradient(#1c0024, #430979, #356117);
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jogo da Velha</title>
+	<link rel="stylesheet" href="jogodavelha.css">
+</head>
+<style>
+    h1 {
+        color: #fff;
+    }
+</style>
+<body>
+	<h1>Jogo da Velha</h1>
+	<div class="jogo">
+		<div class="linha">
+			<div class="quadrado" id="q1"></div>
+			<div class="quadrado" id="q2"></div>
+			<div class="quadrado" id="q3"></div>
+		</div>
+		<div class="linha">
+			<div class="quadrado" id="q4"></div>
+			<div class="quadrado" id="q5"></div>
+			<div class="quadrado" id="q6"></div>
+		</div>
+		<div class="linha">
+			<div class="quadrado" id="q7"></div>
+			<div class="quadrado" id="q8"></div>
+			<div class="quadrado" id="q9"></div>
+		</div>
+	</div>
+	<button id="reiniciar">Reiniciar</button>
+	<script src="jogodavelha.js"></script>
+</body>
+
+<footer>
+    <!--Botão Voltar-->
+    <button id="voltar"
+    onclick="window.history.back()">Voltar</button>
+    
+</footer>
+</html>
